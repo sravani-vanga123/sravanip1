@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)file:///D:/sravani%20v/.vscode/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airport Taxis - Booking</title>
+  <link rel="stylesheet" href="./Airport Taxis_files/style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="logo">Booking<span>.com</span></div>
+    <nav class="menu">
+      <a href="file:///D:/sravani%20v/.vscode/index.html#">Stays</a>
+      <a href="file:///D:/sravani%20v/.vscode/index.html#">Flights</a>
+      <a href="file:///D:/sravani%20v/.vscode/index.html#">Car rentals</a>
+      <a href="file:///D:/sravani%20v/.vscode/index.html#">Attractions</a>
+      <a href="file:///D:/sravani%20v/.vscode/index.html#" class="active">Airport taxis</a>
+    </nav>
+  </header>
+
+  <section class="header">
+    <h2>Book your airport taxi</h2>
+    <p>Easy transportation between the airport and your accommodations</p>
+    <div class="trip-type">
+      <label><input type="radio" name="trip" checked=""> One-way</label>
+      <label><input type="radio" name="trip"> Return</label>
+    </div>
+  </section>
+
+  <section class="form-box">
+    <input type="text" placeholder="Enter pick-up location">
+    <input type="text" placeholder="Enter destination">
+    <input type="date">
+    <input type="time">
+    <select>
+      <option>1 person</option>
+      <option>2 people</option>
+      <option>3 people</option>
+    </select>
+    <button type="submit">Search</button>
+  </section>
+
+
+</body></html>
